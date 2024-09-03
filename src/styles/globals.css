@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100vh;
+  /* background-color: #e2fafa; */
+  /* overflow-x: hidden; */
+}
+#__next {
+  height: 100%;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+.welcome-card {
+  border-radius: 20px;
+  box-shadow: -10px -10px 30px #cdcaca, 10px 10px 30px #cdcaca;
+}
+.welcome-logo img {
+  height: 70px;
+  height: 70px;
+}
+
+:focus-visible {
+  outline: 0 !important;
+}
+.terms input {
+  margin-right: 10px;
+}
+
+form .image-box {
+  height: 120px;
+  width: 120px;
+  border: 5px solid red;
+}
+.image-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.welcome-card .success-box {
+  height: 80px;
+  width: 80px;
+  border: 8px solid rgb(19, 91, 11);
+  background-color: rgb(31, 183, 31);
+}
+.otp-field input {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+button a {
+  width: 100%;
+  border: none;
+}
+
+.otp-field input[value] {
+  padding-left: 30px;
+}
+.otp-field input:focus {
+  border: 2px solid rgb(7, 170, 102);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* profile css */
+
+.header {
+  height: 90px;
+  width: 100%;
+}
+.header .logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.logo img {
+  background: #fff;
+}
+.profile {
+  width: 200px;
+  height: 60px;
+  border: 1px solid green;
+  margin-right: 20px;
+}
+.profile-img {
+  width: 40px;
+  height: 40px;
+}
+.footer {
+  height: 350px;
+  background-color: rgb(153, 27, 39);
+}
+.footer-items {
+  height: 300px;
+  width: 500px;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+}
+.play-btn,
+.google-btn {
+  width: 150px;
+  height: 70px;
+}
+
+/* my account css */
+
+.cards {
+  height: 170px;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+.card-logo {
+  width: 40px;
+  height: 40px;
+}
+.card-top {
+  font-size: 20px;
+}
+.card-top a {
+  text-decoration: none;
+}
+
+.logout-container {
+  height: 55px;
+  border-radius: 10px;
+  background: #f1efef;
+  box-shadow: -35px 35px 73px #faf1f1, 35px -35px 73px #fbfbfb;
+}
+.card-arrow {
+  font-size: 25px;
+}
+.rightarrow {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(158, 29, 29);
+}
+
+/* change password css */
+.password-container{
+  border: 1px solid green;
+}
+form input {
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+::placeholder {
+  padding-left: 10px;
+}
+
+/* personal info */
+
+.userinfo_card {
+  min-height: 150px;
+  border-radius: 19px;
+  box-shadow: -25px 25px 50px #e6e6e6, 25px -25px 50px #fafafa;
+  border-radius: 19px;
+  border: 1px solid green;
+
+
+}
+.form-select,
+option {
+  height: 50px;
+}
+
+.userinfo_top .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.profile-container {
+  width: 350px;
+  height: 250px;
+  border-radius: 19px;
+  border: 1px solid green;
+  box-shadow: -25px 25px 50px #e6e6e6, 25px -25px 50px #fafafa;
+}
+.image-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid red;
+  object-fit: cover;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+.image-icon {
+  font-size: 35px;
+  position: relative;
+  top: -37px;
+  left: 78px;
+}
